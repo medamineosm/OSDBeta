@@ -1993,6 +1993,12 @@ ul#slide-list li a:hover {
     #qcTabNav li {
         width: 125px;
     }
+    #EqcTabNav li {
+        width: 160px;
+    }
+    #EqcTabNav li {
+        width: 125px;
+    }
     .qcTabTitle h4 {
         font-size: 60px;
         line-height: 60px;
@@ -2153,6 +2159,51 @@ ul#slide-list li a:hover {
     	position: relative;
     	top: 0;
     	left: 46px;
+        font-size: 13px;
+    }
+    #qEcTabNav { 
+        display: none;    
+        position: absolute;
+        top: 59px;
+        width: 99.3%;
+        padding: 6px 0;
+        background: #f4f4f4;
+        border: 1px #aaa solid;
+        border-top: 0;
+    }
+    #EqcTabNav li {
+        float: none;
+        display: block;
+        width: 100%;
+        margin-left: 0;
+        border: 0;
+    }
+    #EqcTabNav li.active {
+        border: 0;
+        box-shadow: none;
+    }
+    #EqcTabNav li.active a, #EqcTabNav li.active:hover a {
+        background: none;
+    }
+    #EqcTabNav li:hover a {
+        background: #fff;
+    }
+    #EqcTabNav li a {
+        padding: 15px 0;
+        font-size: 11px;
+        text-align: left;
+    }
+    #EqcTabNav li a i {
+        display: inline-block;
+        top: 13px;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+    #EqcTabNav li a span {
+        display: inline-block;
+        position: relative;
+        top: 0;
+        left: 46px;
         font-size: 13px;
     }
     #qcFooter {
