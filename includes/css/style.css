@@ -324,13 +324,6 @@ video#bgvid {
     margin-left: -4px;
     border-left: 1px #aaa solid;
 }
-#EqcTabNav li {
-    display: inline-block;
-    position: relative;
-    width: 145px;
-    margin-left: -4px;
-    border-left: 1px #aaa solid;
-}
 #qcTabNav li:first-child {
     border-left: 0;
 }
@@ -374,6 +367,19 @@ video#bgvid {
     color: #FF4E00;
 }
 
+#EqcTabNav {
+    position: relative;
+    text-align: center;
+    border-bottom: 4px #555 solid;
+    z-index: 9;
+}
+#EqcTabNav li {
+    display: inline-block;
+    position: relative;
+    width: 145px;
+    margin-left: -4px;
+    border-left: 1px #aaa solid;
+}
 #EqcTabNav li:first-child {
     border-left: 0;
 }
@@ -425,7 +431,7 @@ video#bgvid {
 /* === 4.1 HEADER === */
 
 #qcHomeHeader, #qcHeader {
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -1946,13 +1952,7 @@ ul#slide-list li a:hover {
     background: rgba(255,255,255,0.6);
 }
 
-#video{
-position:relative;
-margin:auto;
-padding:0;
-width:100%;
 
-}
 
 /* ---------------------------------------------------------------------------------- */
 /* 	8. CONDITIONAL LAYOUT CSS FOR MOBILE / TABLET DEVICES [ MEDIA QUERIES ]  */
