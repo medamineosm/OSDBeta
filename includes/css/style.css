@@ -320,6 +320,13 @@ video#bgvid {
 #qcTabNav li {
     display: inline-block;
     position: relative;
+    width: 190px;
+    margin-left: -4px;
+    border-left: 1px #aaa solid;
+}
+#EqcTabNav li {
+    display: inline-block;
+    position: relative;
     width: 145px;
     margin-left: -4px;
     border-left: 1px #aaa solid;
@@ -367,6 +374,48 @@ video#bgvid {
     color: #FF4E00;
 }
 
+#EqcTabNav li:first-child {
+    border-left: 0;
+}
+#EqcTabNav li a {
+    display: block;
+    padding: 40px 0;
+    color: #444;
+    font: 600 14px/14px "Open sans", Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+#EqcTabNav li a span {
+    position: relative;
+    top: 18px;
+}
+#EqcTabNav li a i {
+    position: absolute;
+    width: 100%;
+    top: 22px;
+    left: 0;
+    color: #c4c4c4;
+    font-size: 22px;
+    margin-right: 3px;
+}
+#EqcTabNav li a:hover {
+    color: #000;
+    background: #fafafa;
+}
+#EqcTabNav li.active {
+    border-left: 1px #aaa solid;
+    box-shadow: 0 5px 0 #fff;
+}
+#EqcTabNav li:last-child.active {
+    border-right: 1px #aaa solid;
+}
+#EqcTabNav li.active a, #EqcTabNav li.active a:hover {
+    color: #FF4E00;
+    background: #fff;
+}
+#EqcTabNav li.active a i {
+    color: #FF4E00;
+}
 
 
 /* ----------------------------------------------------------------*/
